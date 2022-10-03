@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <title>Analityco</title>
+  </head>
+  <body>
+    <main class="grid main">
+      <header class="header">
+        <h1 class="heading-primary">
+          <img src="img/arrow-right.svg" alt="right arrow icon" />
+          <span>Dashboard</span>
+        </h1>
+        <div class="header-left">
+          <form action="#" class="search-form">
+            <img src="img/search-icon.svg" alt="Search icon" />
+            <input type="text" placeholder="Search.." />
+          </form>
+          <img
+            class="notification-icon"
+            src="img/notification-icon.svg"
+            alt="Notification icon"
+          />
+          <figure class="profile-box">
+            <img
+              src="img/woman-profile.jpg"
+              class="profile-img"
+              alt="Woman profile image"
+            />
+            <div>
+              <p class="profile-name">Autumn Phillips</p>
+              <span class="profile-badge--spring">Spring Pro</span>
+            </div>
+            <img src="img/Down-arrow.svg" alt="Down arrow icon" />
+          </figure>
+        </div>
+      </header>
+      <div class="left-header">
+        <a href="#" class="logo-link">
+          <img src="img/logo.svg" alt="Logo of Analityco" class="logo" />
+          <span class="logo-name">Analityco</span>
+        </a>
+
+        <nav class="left-side-nav">
+          <ul class="left-side-nav-list">
+            <li>
+              <a class="left-side-nav-link active" href="#"
+                ><img src="img/home-icon.svg" alt="Home icon" /><span
+                  >Dashboard</span
+                ></a
+              >
+            </li>
+            <li>
+              <a class="left-side-nav-link" href="#"
+                ><img src="img/invoice-icon.svg" alt="Invoice icon" /><span
+                  >Transactions</span
+                ></a
+              >
+            </li>
+            <li>
+              <a class="left-side-nav-link" href="#"
+                ><img
+                  src="./img/mobile-payment-icon.svg"
+                  alt="Payment icon"
+                /><span>Payments</span></a
+              >
+            </li>
+            <li>
+              <a class="left-side-nav-link" href="#"
+                ><img src="img/plugin-icon.svg" alt="Planing icon" />
+                <span>Planning</span></a
+              >
+            </li>
+            <li>
+              <a class="left-side-nav-link" href="#"
+                ><img src="img/filter-icon.svg" alt="Settings icon" />
+                <span>Settings</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav open" name="menu-outline"></ion-icon>
+          <ion-icon
+            class="icon-mobile-nav close"
+            name="close-outline"
+          ></ion-icon>
+        </button>
+        <footer class="left-side-footer">
+          <nav class="footer-nav">
+            <ul class="left-side-nav-list">
+              <li>
+                <a class="left-side-nav-link" href="#">
+                  <img src="img/help-icon.svg" alt="Help icon" /><span
+                    >Help</span
+                  ></a
+                >
+              </li>
+              <li>
+                <a class="left-side-nav-link" href="#"
+                  ><img src="img/logout-icon.svg" alt="Logout icon" /><span
+                    >Logout</span
+                  ></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </footer>
+        <aside class="aside-bussines">
+          <p class="aside-heading">Do you have a business?</p>
+          <p class="aside-text">
+            Try out the pro deal, unlock the new opportunities.
+          </p>
+          <a href="#" class="btn-aside">Go Pro</a>
+        </aside>
+      </div>
+
+      <section class="section-content">
+        <div class="main-content-box">
+          <div class="grid grid--4-cols transfers">
+            <div class="transfer-box">
+              <div class="transfer-icon-box">
+                <img
+                  src="img/card-icon.svg"
+                  alt="Debit card icon"
+                  class="transfer-icon"
+                />
+              </div>
+
+              <p class="transfer-text">Transfer via Card Number</p>
+              <p class="transfer-amount">$24,002</p>
+              <img
+                src="img/three-dots-icon.svg"
+                alt="Three dots icon"
+                class="three-dots"
+              />
+            </div>
+            <div class="transfer-box">
+              <div class="transfer-icon-box">
+                <img
+                  src="img/arrow-transfer-icon.svg"
+                  alt="Transfer icon"
+                  class="transfer-icon"
+                />
+              </div>
+              <p class="transfer-text">Transfer to other Banks</p>
+              <p class="transfer-amount">$2,400</p>
+              <img
+                src="img/three-dots-icon.svg"
+                alt="Three dots icon"
+                class="three-dots"
+              />
+            </div>
+            <div class="transfer-box">
+              <div class="transfer-icon-box">
+                <img
+                  src="img/bank-icon.svg"
+                  alt="Bank icon"
+                  class="transfer-icon"
+                />
+              </div>
+              <p class="transfer-text">Transfer to same Banks</p>
+              <p class="transfer-amount">$5,600</p>
+              <img
+                src="img/three-dots-icon.svg"
+                alt="Three dots icon"
+                class="three-dots"
+              />
+            </div>
+            <div class="transfer-box">
+              <div class="transfer-icon-box">
+                <img
+                  src="img/board-icon.svg"
+                  alt="Board icon"
+                  class="transfer-icon"
+                />
+              </div>
+              <p class="transfer-text">Current Debts</p>
+              <p class="transfer-amount">$12,700</p>
+              <img
+                src="img/three-dots-icon.svg"
+                alt="Three dots icon"
+                class="three-dots"
+              />
+            </div>
+          </div>
+          <div class="content-left">
+            <div class="graphBox">
+              <div class="graph">
+                <div class="graph-header">
+                  <h2 class="heading-secondary">Balance Statistics</h2>
+                  <div class="graph-btn-box">
+                    <button class="btn graph-btn graph-btn--active">
+                      Daily
+                    </button>
+                    <button class="btn graph-btn">Monthly</button>
+                  </div>
+                  <img
+                    src="img/three-dots-icon.svg"
+                    alt="Three dots icon"
+                    class="three-dots three-dots--center"
+                  />
+                </div>
+                <canvas id="balance" class="balance"></canvas>
+              </div>
+            </div>
+            <div class="table-box">
+              <div class="table-header">
+                <h2 class="heading-secondary">Invoices</h2>
+                <a href="#" class="btn btn-table"
+                  >&#10010;<span>New Invoice</span></a
+                >
+              </div>
+              <div style="overflow-x: auto">
+                <table>
+                  <!-- table row -->
+                  <thead>
+                    <tr>
+                      <th>number</th>
+                      <th>date</th>
+                      <th>client name</th>
+                      <th>amount</th>
+                      <th>status</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    <tr>
+                      <td>#ASC52195</td>
+                      <td>May 7, 2022</td>
+                      <td>Chris Glasser</td>
+                      <td>$2,571.21</td>
+                      <td><span class="pending status">PENDING</span></td>
+                    </tr>
+                    <tr>
+                      <td>#BUK25126</td>
+                      <td>May 12, 2022</td>
+                      <td>Corina McCoy</td>
+                      <td>$9,966.52</td>
+                      <td>
+                        <span class="completed status">COMPLETED</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>#NAM47812</td>
+                      <td>May 29, 2022</td>
+                      <td>Kurt Bates</td>
+                      <td>$201.79</td>
+                      <td>
+                        <span class="completed status">COMPLETED</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>#ASC89715</td>
+                      <td>May 18, 2022</td>
+                      <td>Stephanie Nicol</td>
+                      <td>$6,275.59</td>
+                      <td><span class="pending status">PENDING</span></td>
+                    </tr>
+                    <tr>
+                      <td>#PLE12485</td>
+                      <td>May 17, 2022</td>
+                      <td>Autumn Phillips</td>
+                      <td>$1,415.67</td>
+                      <td><span class="completed status">COMPLETED</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="content-right">
+            <div class="debit-card-box">
+              <div class="debit-card">
+                <img
+                  src="img/debit-card.png"
+                  alt="Debit card Image"
+                  class="debit-card-img"
+                />
+                <a href="#" class="btn btn-debit-card"
+                  >&#10010;<span>Add new card</span></a
+                >
+              </div>
+              <div class="current-total-box">
+                <h2 class="heading-secondary">Current Total</h2>
+                <p class="current-total-amount">$25,201</p>
+                <img
+                  src="img/three-dots-icon.svg"
+                  alt="Three dots icon"
+                  class="three-dots"
+                />
+              </div>
+            </div>
+            <div class="transactions-box">
+              <h2 class="heading-secondary">
+                Last transaction <span class="right-arrow">&#8594;</span>
+              </h2>
+              <ul class="transactions-list">
+                <li class="transaction">
+                  <img
+                    src="img/wifi-icon.svg"
+                    alt="Wifi icon"
+                    class="transaction-icon"
+                  />
+                  <div class="transaction-name-box">
+                    <p class="transaction-name">Internet Bill</p>
+                    <p class="transaction-status">Successfully</p>
+                  </div>
+                  <p class="transaction-amount">
+                    <span class="dash-icon">&#8211;</span>$209
+                  </p>
+                </li>
+                <li class="transaction">
+                  <img
+                    src="img/Ascended-logo-icon.svg"
+                    alt="Ascended company logo icon"
+                    class="transaction-icon"
+                  />
+                  <div class="transaction-name-box">
+                    <p class="transaction-name">Ascended Salary</p>
+                    <p class="transaction-status">Successfully</p>
+                  </div>
+                  <p class="transaction-amount transaction-amount--plus">
+                    <span class="dash-icon">&plus;</span>$7,000
+                  </p>
+                </li>
+                <li class="transaction">
+                  <img
+                    src="img/dribbble-logo-icon.svg"
+                    alt="Dribble logo icon"
+                    class="transaction-icon"
+                  />
+                  <div class="transaction-name-box">
+                    <p class="transaction-name">Dribbble Business</p>
+                    <p class="transaction-status">Successfully</p>
+                  </div>
+                  <p class="transaction-amount">
+                    <span class="dash-icon">&#8211;</span>$150
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer-mobile">
+        <div class="footer-mobile-nav-with-logo">
+          <a href="#" class="logo-link">
+            <img src="img/logo.svg" alt="Logo of Analityco" class="logo" />
+            <span class="logo-name">Analityco</span>
+          </a>
+          <nav class="footer-nav-mobile">
+            <ul class="left-side-nav-list">
+              <li>
+                <a class="left-side-nav-link" href="#">
+                  <img src="img/help-icon.svg" alt="Help icon" /><span
+                    >Help</span
+                  ></a
+                >
+              </li>
+              <li>
+                <a class="left-side-nav-link" href="#"
+                  ><img src="img/logout-icon.svg" alt="Logout icon" /><span
+                    >Logout</span
+                  ></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <aside class="aside-bussines-mobile">
+          <p class="aside-heading">Do you have a business?</p>
+          <p class="aside-text">
+            Try out the pro deal, unlock the new opportunities.
+          </p>
+          <a href="#" class="btn-aside">Go Pro</a>
+        </aside>
+      </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+    <script src="js/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </body>
+</html>

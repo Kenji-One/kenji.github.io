@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  font-size: 62.5%;
+  overflow-x: hidden;
+  /* Does NOT work on Safari */
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  font-family: "rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #00120b;
+  font-style: normal;
+
+  /* Only works if there is nothing absolutely positioned in relation to body*/
+  overflow-x: hidden;
+}
+/****************************/
+/* GENERAL REUSABLE COMPONENTS */
+/****************************/
+
+.container {
+  /* Generally1140px is also used but 1200 is inmost situation */
+  /* max-width: 120rem; */
+  /* padding: 0 3.2rem; */
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  /* column-gap: 3.2rem; */
+}
+
+/* .grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+} */
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--center-v {
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  background: none;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+}
+
+.heading-primary {
+  font-size: 2rem;
+  line-height: 1.05;
+  font-weight: 500;
+  color: #6b818c;
+
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.heading-secondary {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  color: #35605a;
+}
+
+.three-dots {
+  /* height: 2.4rem;
+  width: 2.4rem; */
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.three-dots--center {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* .max-width-45rem {
+  max-width: 45rem;
+} */
